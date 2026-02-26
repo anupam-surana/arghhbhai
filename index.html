@@ -2039,12 +2039,7 @@
 
             try {
                 // Google Apps Script endpoint configured
-                const response = await fetch('https://script.google.com/macros/s/AKfycbyJ_8nnVaGW6Ehnx0Ck61tc3Vc_pAVxCpflyLEeaWs6g_wZTL-QYqaOW_n5nuSizrHE3A/exec', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data)
-                });
-
+    
                 const response = await fetch('https://script.google.com/macros/s/AKfycbyJ_8nnVaGW6Ehnx0Ck61tc3Vc_pAVxCpflyLEeaWs6g_wZTL-QYqaOW_n5nuSizrHE3A/exec', {
                 method: "POST",
                 mode: "no-cors",
